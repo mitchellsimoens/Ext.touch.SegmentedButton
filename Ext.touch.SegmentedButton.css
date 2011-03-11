@@ -1,0 +1,21 @@
+.x-segmentedbutton-v .x-button {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	margin: 0;
+}
+.x-segmentedbutton-v .x-button:first-child {
+	-webkit-border-top-left-radius: 0.4em;
+	border-top-left-radius: 0.4em;
+	-webkit-border-top-right-radius: 0.4em;
+	border-top-right-radius: 0.4em;
+}
+
+.x-segmentedbutton-v .x-button:last-child {
+	-webkit-border-bottom-left-radius: 0.4em;
+	border-bottom-left-radius: 0.4em;
+	-webkit-border-bottom-right-radius: 0.4em;
+	border-bottom-right-radius: 0.4em;
+}
+.x-segmentedbutton-v .x-button:not(:first-child) {
+	border-top: 0;
+}
